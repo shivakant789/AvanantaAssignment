@@ -17,7 +17,7 @@ import java.util.Date;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@EntityListeners(AuditingEntityListener.class)
+@EntityListeners(MyListner.class)
 @MappedSuperclass
 public class BaseModel {
     @Id
